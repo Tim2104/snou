@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Kardinal;
+    src: url('../fonts/Kardinal.svg') format('svg'),
+         url('../fonts/Kardinal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Letov;
+    src: url('../fonts/Letov.svg') format('svg'),
+         url('../fonts/Letov.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

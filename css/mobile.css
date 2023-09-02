@@ -1,0 +1,520 @@
+@media(max-width: 380px) {
+ /**
+  * секция хедер и панель навигации
+  */
+    header {
+        padding: 2px 1px;
+    }
+    header nav {
+        width: 100%;
+    }
+    .box {
+        height: auto;
+        padding: 30px 1px;
+    }
+    .banner {
+        padding: 140px 1px;
+    }
+    .nav-block-lnk {
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .nav-block-ul {
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .nav-block-ul li {
+        width: 100vw;
+        padding: 40px 4px;
+        text-align: left;
+        letter-spacing: 3px;
+        border-bottom: 1px solid var(--color-gray-dark);
+    }
+    .nav-block-ul li:hover {
+        border: none;
+    }
+    .nav-menu-closer {
+        top: 16px;
+    }
+    
+    /**
+     * секция о компании
+     */
+    .about {
+        width: 100%;
+    }
+    .about-h1, .about-desc {
+        padding: 0;
+    }
+    .numbers {
+        position: initial;
+        height: auto;
+        flex-direction: column;
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .numbers-elem {
+        padding: 7px 0;
+    }
+    .numbers-elem p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .numbers-elem p:last-child {
+        letter-spacing: 3px;
+    }
+    .numbers-case {
+        padding: 22px 0;
+        width: 94%;
+        border-bottom: 1px solid var(--color-bg-gray);
+    }
+    .numbers-wrap {
+        flex-direction: column;
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .spacer {
+        display: none;
+    }
+    
+    /**
+     *  секция удачные проекты
+     */
+    
+    .projects-p, .projects-h1 {
+        padding: 0;
+    }
+    .projects-galery {
+        display: block;
+        width: 100%;
+    }
+    .proj-c7 {
+        background: url("../img/img7.jpg") center center no-repeat;
+    }
+    .proj-c7 * {
+        display: none;
+    }
+    .projects-galery div {
+        margin: 8px auto;
+        width: 100%;
+        height: 30vh;
+    }
+    /**
+     *  секция рекомендации
+     */
+    .carousel {
+        position: initial;
+        height: 80vh;
+        padding: 70px 0;
+    }
+    .carousel div:first-of-type {
+        height: 100%;
+        padding: 30px 0;
+    }
+    
+    /**
+     *  секция клиенты компании
+     */
+    .clients {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .clients-case {
+        margin: 0 6px;
+    }
+    .clients-case img {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    
+    /**
+     *  секция блог
+     */
+    .blog-slider {
+        padding: 50px 0;
+    }
+    .blog-text {
+        text-align: center;
+    }
+    
+    /**
+     * секция контакты и форма
+     */
+    .contact-wrap {
+        display: block;
+    }
+    .contact-form, .contact-info {
+        width: 100%;
+        padding: 0 6px;
+    }
+    .contact-info-p:nth-of-type(1n+2) {
+        padding: 4px 0;
+    }
+    .contact-form-user-data input {
+        display: block;
+    }
+    .contact-form-user-data input:first-child {
+        float: none;
+    }
+    .contact-form-user-data input:last-child {
+        float: none;
+    }
+    .contact-form input:not([type='submit']), .contact-form textarea {
+        width: 97%;
+        margin: 12px auto;
+    }
+    .contact-form textarea {
+        height: 100px;
+    }
+    .contact-form form textarea::-webkit-input-placeholder, .contact-form form input::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+    .contact-form form input[type='submit'] {
+        width: 185px;
+        float: right;
+    }
+    
+    /**
+     *  футер
+     */
+    .footer-wrap {
+        display: block;
+    }
+    .footer-case {
+        width: 100%;
+    }
+    .footer-h3, .footer-p, .footer-soc {
+        text-align: center;
+    }
+    .copyright {
+        padding-top: 30px;
+    }
+    .footer-inst {
+        margin: 0 auto;
+        grid-column-gap: 6px;
+        grid-row-gap: 6px;
+    }
+}
+@media(min-width: 380px) and (max-width: 720px) {
+  /**
+  * секция хедер и панель навигации
+  */
+    header {
+        padding: 2px 1px;
+    }
+    header nav {
+        width: 100%;
+    }
+    .box {
+        height: auto;
+        padding: 30px 3px;
+    }
+    .banner {
+        padding: 140px 1px;
+    }
+    .nav-block-lnk {
+        right: 20px;
+        left: 20px;
+    }
+    .nav-block-ul {
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .nav-block-ul li {
+        width: 98vw;
+        padding: 40px 10px;
+        text-align: left;
+        letter-spacing: 3px;
+        border-bottom: 1px solid var(--color-gray-dark);
+    }
+    
+    /**
+     * секция о компании
+     */
+    .about {
+        width: 100%;
+    }
+    .about-h1, .about-desc {
+        padding: 0;
+    }
+    .numbers {
+        position: initial;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .numbers-elem {
+        padding: 7px 0;
+    }
+    .numbers-elem p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .numbers-elem p:last-child {
+        letter-spacing: 3px;
+    }
+    .numbers-case {
+        padding: 22px 0;
+        width: 50%;
+        border-bottom: 1px solid var(--color-bg-gray);
+    }
+    .numbers-case:nth-of-type(1) {
+        border-right: 1px solid var(--color-bg-gray);
+        border-bottom-right-radius: 50px;
+    }
+    .numbers-case:nth-of-type(2) {
+        border-left: 1px solid var(--color-bg-gray);
+        border-bottom-left-radius: 50px;
+    }
+    .numbers-case:nth-of-type(3) {
+        border-right: 1px solid var(--color-bg-gray);
+        border-top: 1px solid var(--color-bg-gray);
+        border-top-right-radius: 50px;
+    }
+    .numbers-case:nth-of-type(4) {
+        border-left: 1px solid var(--color-bg-gray);
+        border-top: 1px solid var(--color-bg-gray);
+        border-top-left-radius: 50px;
+    }
+    .numbers-wrap {
+        flex-direction: column;
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .spacer {
+        display: none;
+    }
+    
+    /**
+     *  секция удачные проекты
+     */
+    .projects-p, .projects-h1 {
+        padding: 0;
+    }
+    .projects-p, .projects-h1 {
+        padding: 0;
+    }
+    .projects-galery {
+        display: block;
+        width: 100%;
+    }
+    .proj-c7 {
+        background: url("../img/img7.jpg") center center no-repeat;
+    }
+    .projects-galery div {
+        margin: 8px auto;
+        width: 100%;
+        height: 30vh;
+    }
+    .proj-c7 * {
+        display: none;
+    }
+    
+    /**
+     *  секция рекомендации
+     */
+    .carousel {
+        position: initial;
+        height: 80vh;
+        padding: 75px 0;
+    }
+    .carousel div:first-of-type {
+        height: 100%;
+        padding: 35px 0;
+    }
+    
+    /**
+     *  секция клиенты компании
+     */
+    .clients {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .clients-case {
+        margin: 0 9px;
+    }
+    .clients-case img {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    
+    /**
+     *  секция блог
+     */
+    .blog-slider {
+        padding: 50px 0;
+    }
+    .blog-text {
+        text-align: center;
+    }
+    
+    /**
+     * секция контакты и форма
+     */
+    
+    .contact-wrap {
+        display: block;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .contact-form {
+        width: 95%;
+        margin: auto;
+    }
+    .contact-info-h1, .contact-info-p:first-of-type {
+        padding: 35px 0;
+    }
+    .contact-info-p:nth-of-type(1n+2) {
+        padding: 4px 0;
+    }
+    .contact-form-user-data input {
+        display: block;
+    }
+    .contact-form-user-data input:first-child {
+        float: none;
+    }
+    .contact-form-user-data input:last-child {
+        float: none;
+    }
+    .contact-form input:not([type='submit']), .contact-form textarea {
+        width: 97%;
+        margin: 12px auto;
+    }
+    .contact-form textarea {
+        height: 100px;
+    }
+    .contact-form form textarea::-webkit-input-placeholder, .contact-form form input::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+    .contact-form form input[type='submit'] {
+        width: 185px;
+        float: right;
+    }
+    
+    /**
+     *  футер
+     */
+    .footer-wrap {
+        display: block;
+    }
+    .footer-case {
+        width: 100%;
+    }
+    .footer-h3, .footer-p, .footer-soc {
+        text-align: center;
+    }
+    .copyright {
+        padding-top: 30px;
+    }
+    .footer-inst {
+        margin: 0 auto;
+        grid-column-gap: 6px;
+        grid-row-gap: 6px;
+    }
+}
+@media(min-width: 720px) and (max-width: 1024px) {
+  /**
+   * секция хедер и панель навигации
+   */
+    
+    .spacer {
+        height: 360px;
+    }
+    
+    .box {
+        padding: 67px 5%;
+    }
+    .banner {
+        padding: 140px 1px;
+    }
+    .nav-block-lnk {
+        width: 100%;
+        right: 20px;
+        left: 20px;
+    }
+    .nav-block-ul {
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .nav-block-ul li {
+        width: 80vw;
+        padding: 40px 10px;
+        text-align: left;
+        letter-spacing: 3px;
+        border-bottom: 1px solid var(--color-gray-dark);
+    }
+    .numbers-wrap {
+        flex-direction: column;
+        -o-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    /**
+     * секция о компании
+     */
+    .about-h1, .about-desc {
+        padding: 0;
+    }
+    
+    /**
+     *  секция удачные проекты
+     */
+    .projects-p, .projects-h1 {
+        padding: 0;
+    }
+    
+    /**
+     *  секция рекомендации
+     */
+    .carousel {
+        height: 750px;
+        padding: 115px 0;
+    }
+    .carousel div:first-of-type {
+        height: 100%;
+        padding: 65px 0;
+    }
+    
+    /**
+     *  секция блог
+     */
+    .blog-slider {
+        padding: 40px 0;
+    }
+    .blog-text {
+        text-align: center;
+    }
+    
+    /**
+     *  футер
+     */
+    .footer-inst {
+        margin: 0 auto;
+        grid-column-gap: 4px;
+        grid-row-gap: 4px;
+    }
+    .footer-inst div {
+        width: 53px;
+        height: 53px;
+    }
+}
+
+/**
+ * стили для больших экранов от 2000 пикселей
+ */
+@media(min-width: 2000px) {
+    .box {
+        width: 80%;
+    }
+}

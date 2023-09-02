@@ -1,0 +1,53 @@
+/*
+ *  стили анимации
+ */
+@keyframes shadow-translate-in {
+    0% {
+        box-shadow: 0 0 0 #000;
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 9px #000;
+        transform: translate3d(0, 15px, 20px);
+    }
+}
+
+@keyframes shadow-translate-out {
+    0% {
+        box-shadow: 0 0 9px #000;
+        transform: translate3d(0, 15px, 20px);
+    }
+    100% {
+        box-shadow: 0 0 0 #000;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes shadow-rise {
+    0% {
+        box-shadow: 0 0 5px var(--color-bg-black-opac);
+    }
+    70% {
+        box-shadow: 0 0 25px var(--color-bg-black-opac);
+    }
+    100% {
+        box-shadow: 0 0 12px var(--color-bg-black-opac);
+    }
+}
+
+.blog-slider-wrap {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.shadow-translate-in {
+    animation: shadow-translate-in 100ms linear;
+    animation-fill-mode: forwards;
+}
+.shadow-translate-out {
+    animation: shadow-translate-out 200ms ease-out;
+    animation-fill-mode: forwards;
+}
+.shadow-rise {
+    animation: shadow-rise 700ms ease;
+    animation-fill-mode: forwards;
+}
