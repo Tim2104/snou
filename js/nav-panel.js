@@ -46,7 +46,7 @@ $(document).ready(function() {
                     "-moz-align-items": "flex-start",
                 });
                 clone.find(".nav-item").css({
-                    "padding": "0",
+                    "padding": "0 8px",
                     "height": "62px"
                 });
             }

@@ -193,7 +193,7 @@ header nav {
     -moz-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
 }
-.nav-block-ul li {
+.nav-block-ul li a {
     width: 210px;
     padding: 10px 0;
     background-color: var(--color-bg-black);
@@ -202,7 +202,7 @@ header nav {
     letter-spacing: 3px;
     font-family: Letov, sans-serif;
 }
-.nav-block-ul li:hover {
+.nav-block-ul li a:hover {
     border: 1px solid var(--color-bg-gray);
 }
 
@@ -715,4 +715,36 @@ header nav {
     width: 83px;
     height: 83px;
     background-color: var(--color-bg-gray);
+}
+
+
+/**
+ *  блок-подсказка (alert)
+ */
+._alert {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+._alert-text {
+    width: inherit;
+    height: inherit;
+    border: 1px solid var(--color-gray-dark);
+    padding: 13px;
+    background-color: var(--color-white);
+    color: var(--color-warning);
+    font-family: 'Letov';
+    font-size: 14px;
+}
+._alert-angle {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -8px;
+    right: calc(100% / 2);
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-gray-dark);
+    border-right: 1px solid var(--color-gray-dark);
 }
